@@ -5,11 +5,13 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "rescript:build": "rescript",
-    "rescript:start": "rescript build -w"
+    "res:build": "rescript",
+    "res:start": "rescript build -w"
   },
   "dependencies": {
+    "@emotion/css": "11.7.1",
     "@rescript/react": "0.10.3",
+    "@rescriptbr/ancestor": "^0.5.0",
     "@vitejs/plugin-react": "1.0.1",
     "react": "17.0.0",
     "react-dom": "17.0.0",
