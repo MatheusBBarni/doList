@@ -9,7 +9,7 @@ module Styles = {
     "border": "none",
     "color": Colors.white->colorToString,
     "fontSize": "1.8rem",
-    "padding": "1.2rem 1.6rem",
+    "padding": "1.6rem 1.6rem",
     "borderRadius": "6px",
     "width": "100%",
     "background": Colors.grayDark->colorToString,
@@ -25,6 +25,6 @@ module Styles = {
 }
 
 @react.component
-let make = (~onChange=?, ~name=?, ~placeholder=?) => {
-  <input ?onChange ?name ?placeholder className=Styles.input />
+let make = (~onChange=?, ~name=?, ~placeholder=?, ~value=?) => {
+  <input ?onChange ?name ?placeholder className=Styles.input ?value />
 }

@@ -16,9 +16,18 @@ Emotion.injectGlobal({
   },
 })
 
+let client = ReactQuery.Provider.createClient()
+
 @react.component
 let make = () => {
-  <Box p=[xs(4)] width=[xs(100.0->#pct)] height=[xs(100.0->#pct)] bgColor=[xs(Theme.Colors.black)]>
-    <Input />
-  </Box>
+  <ReactQuery.Provider client>
+    <Box
+      py=[xs(9)]
+      px=[xs(9)]
+      width=[xs(100.0->#pct)]
+      minH=[xs(100.0->#pct)]
+      bgColor=[xs(Theme.Colors.black)]>
+      <Tasks />
+    </Box>
+  </ReactQuery.Provider>
 }

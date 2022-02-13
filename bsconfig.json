@@ -16,6 +16,9 @@
   "suffix": ".bs.js",
   "bs-dependencies": [
     "@rescript/react", 
-    "@rescriptbr/ancestor"
+    "@rescriptbr/ancestor",
+    "@rescriptbr/react-query",
+    "@ryyppy/rescript-promise",
+    "rescript-jzon"
   ]
 }

@@ -1,6 +1,3 @@
-@module("../assets/check-icon.svg")
-external checkIcon: string = "default"
-
 module Styles = {
   open Theme
   open Emotion
@@ -66,6 +63,6 @@ module Styles = {
 let make = (~checked=?, ~onChange=?) => {
   <label className=Styles.checkboxWrapper>
     <input type_="checkbox" ?checked ?onChange />
-    <div> <img src=checkIcon alt="Checkbox Icon" /> </div>
+    <div> <img src=Assets.checkIcon alt="Checkbox Icon" /> </div>
   </label>
 }
