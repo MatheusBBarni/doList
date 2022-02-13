@@ -1,5 +1,3 @@
-# ES2077 :: Vite ReScript Template 
+# dolist.
 
-## Getting started 🚀
-
-Simply click on `Use this template` 😃
+An app that I did on the [es2077 course](https://es77.dev).
